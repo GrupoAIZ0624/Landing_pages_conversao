@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    max-height: 600px;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../caminhoes/assets/images/capa face.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-bottom: 80px;
+    color: white;
+    text-align: center;
+}
+
+.header img {    
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+main {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.box-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    height: 180px;
+    width: 1300px;
+    background-color: #193062;    
+    color: white;
+    border-radius: 15px;
+    padding: 10px 50px
+}
+
+.box-topo-btn {
+    align-items: center;
+    width: 320px;
+    height: 60px;
+    background-color: #349cd7;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.box-topo-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box-topo-btn:hover {
+    transform: translate(-5px, -5px);
+    background-color: #1770a3;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    border-top: solid 1px #cdcdcd;
+    background: linear-gradient(#193062 , white);
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.footer-texto {
+    color: white;
+    font-size:medium;
+    margin-left: 10px;
+}
